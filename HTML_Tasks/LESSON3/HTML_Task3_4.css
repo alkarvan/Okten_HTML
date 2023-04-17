@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    margin: 0px 0px 40px 0px;
+}
+
+p {
+    text-align: center;
+    margin: 0px 20px;
+}
+
+#page1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+    /*width: 100vw;*/
+    background-color: palevioletred;
+    /*transition: 3s;*/
+}
+
+#page2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+    /*width: 100vw;*/
+    background-color: blue;
+    /*transition: 3s;*/
+}
+
