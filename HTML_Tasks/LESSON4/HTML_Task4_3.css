@@ -1,0 +1,81 @@
+
+body {
+    margin: 0 auto;
+    background-color: #eaeded;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+form {
+    height: 60vh;
+    width: 70vw;
+    margin: 50px 0;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    /*border-radius: 20px;*/
+}
+
+label {
+    height: 10%;
+    width: 73%;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*Змінити колір рамки (border) для <input>*/
+input:focus {
+    border: 2px solid gray;
+    box-shadow: 1px 1px 2px 0 gray;
+}
+
+.form_header {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 5%;
+    width: 73%;
+}
+
+.reg_input1 {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 40%;
+    padding: 10px;
+    border: 2px solid darkgray;
+}
+
+.reg_input2 {
+    height: 5%;
+    width: 70%;
+    padding: 10px;
+    border: 2px solid darkgray;
+}
+
+.reg_input2 label {
+    border: none;
+}
+
+#bottom {
+    background-color: #c9933a;
+    border-radius: 2px;
+    border: 2px solid #a1690d;
+    height: 10%;
+    width: 73%;
+    text-justify: auto;
+    font-size: large;
+    cursor: pointer;
+    font-style: inherit;
+}
+

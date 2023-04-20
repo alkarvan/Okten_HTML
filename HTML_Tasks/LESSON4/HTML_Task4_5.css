@@ -1,0 +1,82 @@
+
+body {
+    margin: 0 auto;
+    background-color: #e7ebf5;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.border_div {
+    height: 60vh;
+    width: 70vw;
+    background-color: #6bbde1;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+form {
+    height: 80%;
+    width: 60%;
+    margin: 50px 0;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.form_header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    height: 10%;
+    width: 95%;
+}
+
+.reg_input {
+    height: 10%;
+    width: 90%;
+    padding: 10px;
+    border: 2px solid darkgray;
+    border-radius: 2px;
+}
+
+#bottom {
+    background-color: darkgray;
+    border-radius: 2px;
+    border: 2px solid darkorange;
+    height: 10%;
+    width: 45%;
+    margin-left: 50%;
+    text-justify: auto;
+    font-size: 700;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+h2 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+hr {
+    width: 99%;
+}
+
+/*Змінити колір рамки (border) для <input>*/
+input:focus {
+    border: 2px solid gray;
+    box-shadow: 1px 1px 2px 0 gray;
+}

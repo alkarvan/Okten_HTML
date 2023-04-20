@@ -1,0 +1,76 @@
+
+body {
+    margin: 0 auto;
+    background-color: #2B7480;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    height: 90vh;
+    width: 50vw;
+    margin: 10px 0;
+    background-color: #fbfbfb;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    background-color: #B9D6CF;
+    margin: 0;
+    border-radius: 20px 20px 0 0;
+    padding: 20px 0
+}
+
+/*Змінити колір рамки (border) для <input>*/
+input:focus {
+    border: 2px solid gray;
+    box-shadow: 1px 1px 2px 0 gray;
+}
+
+input:active {
+    border: 2px solid gray;
+    box-shadow: 1px 1px 2px 0 darkblue;
+    background-color: #6bbde1;
+}
+
+/*input:active {*/
+/*    border: 3px solid blue;*/
+/*    box-shadow: 1px 1px 2px 0 blue*/
+/*}*/
+
+.registration {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 5%;
+    width: 70%;
+    margin: 10px 0;
+}
+
+.reg_input {
+    height: 5%;
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid darkgray;
+}
+
+.bottom {
+    background-color: #B9D6CF;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+    height: 95%;
+    width: 30%;
+    text-justify: auto;
+    cursor: pointer;
+}
+

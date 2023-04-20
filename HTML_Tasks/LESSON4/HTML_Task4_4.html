@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 4_4</title>
+    <link rel="stylesheet" href="HTML_Task4_4.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<form>
+    <h1>Заполніть поля анкети</h1>
+    <label>Ваше ім'я:<input type="text" name="Name" class="reg_input" placeholder="Введіть ім'я" required></label>
+    <label>Ваше прізвище:<input type="text" name="SoName" class="reg_input" placeholder="Введіть прізвище"
+                                required></label>
+    <label>Ваша стать:
+        <input type="radio" name="Gender" value="male" required> Жіноча
+        <input type="radio" name="Gender" value="female" required> Чоловіча
+    </label>
+    <h4>Послугами якої сотової компанії Ви користуєтеся:</h4>
+    <label>
+        <input type="checkbox" name="Mob_KS"> KyivStar
+        <input type="checkbox" name="Mob_MTS">MTS
+        <input type="checkbox" name="Mob_Life">Life:)
+        <input type="checkbox" name="Mob_PeopleNet">PeopleNet
+        <input type="checkbox" name="Mob_Utel">Utel
+    </label>
+
+    <div>
+        <input type="submit" class="bottom" value="Надіслати анкету">
+        <input type="reset" class="bottom" value="Очистити бланк">
+    </div>
+</form>
+</body>
+</html>
