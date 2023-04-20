@@ -11,10 +11,10 @@
 </head>
 <body>
 <form>
-    <h1>Заполніть поля анкети</h1>
-    <label>Ваше ім'я:<input type="text" name="Name" class="reg_input" placeholder="Введіть ім'я" required></label>
-    <label>Ваше прізвище:<input type="text" name="SoName" class="reg_input" placeholder="Введіть прізвище"
-                                required></label>
+    <h1>Заповніть поля анкети</h1>
+    <label class="reg_input">Ваше ім'я:<input type="text" name="Name" placeholder="Введіть ім'я" required></label>
+    <label class="reg_input">Ваше прізвище:<input type="text" name="SoName" placeholder="Введіть прізвище"
+                                                  required></label>
     <label>Ваша стать:
         <input type="radio" name="Gender" value="male" required> Жіноча
         <input type="radio" name="Gender" value="female" required> Чоловіча
@@ -28,7 +28,7 @@
         <input type="checkbox" name="Mob_Utel">Utel
     </label>
 
-    <div>
+    <div class="bottom_class">
         <input type="submit" class="bottom" value="Надіслати анкету">
         <input type="reset" class="bottom" value="Очистити бланк">
     </div>

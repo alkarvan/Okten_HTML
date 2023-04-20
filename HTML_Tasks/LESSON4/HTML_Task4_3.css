@@ -1,6 +1,7 @@
 
 body {
     margin: 0 auto;
+    height: 100vh;
     background-color: #eaeded;
     font-family: 'Roboto', sans-serif;
     display: flex;

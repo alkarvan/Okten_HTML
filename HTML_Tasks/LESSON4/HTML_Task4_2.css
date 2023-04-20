@@ -1,6 +1,7 @@
 
 body {
     margin: 0 auto;
+    height: 100vh;
     background-color: #2B7480;
     font-family: 'Open Sans', sans-serif;
     display: flex;
@@ -9,7 +10,7 @@ body {
 }
 
 form {
-    height: 90vh;
+    height: 60vh;
     width: 50vw;
     margin: 10px 0;
     background-color: #fbfbfb;
