@@ -48,7 +48,7 @@ li {
 }
 
 li:before {
-    content: url("favicon-16x16.png");
+    content: "*";
     width: 90%;
     height: 90%;
     background-size: cover;
@@ -81,6 +81,7 @@ li:before {
 }
 
 .li_box5 > li::first-letter {
+    /*content: none;*/
     color: red;
     font-size: 30px;
 }
@@ -89,5 +90,6 @@ h4::first-letter {
     color: red;
     font-size: 130%;
 }
+
 
 
