@@ -1,0 +1,124 @@
+
+body {
+    margin: 0 auto;
+    height: 100vh;
+    background-color: #e7ebf5;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.border_div {
+    height: 100%;
+    width: 70vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    /* align-content: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form_class {
+    height: 80%;
+    width: 60%;
+    border: 2px solid darkgray;
+    margin-top: 30px;
+    padding: 0 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+
+.bottom_class {
+    height: 10%;
+    width: 60%;
+    border: 2px solid darkgray;
+    margin: 10px 0 30px 0;
+    padding: 0 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.form_header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 10%;
+    width: 95%;
+}
+
+label {
+    height: 5%;
+    width: 90%;
+}
+
+.reg_input {
+    height: 5%;
+    width: 97%;
+    /* margin: 10px; */
+    padding: 10px;
+    background-color: #f3f4f5;
+    border: 2px solid darkgray;
+    border-radius: 2px;
+}
+
+.fb_class {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#bottom {
+    background-color: #479ef7;
+    border-radius: 10px;
+    border: 2px solid #479ef7;
+    height: 7%;
+    width: 95%;
+    margin: 20px;
+    padding: 10px;
+    color: whitesmoke;
+    text-justify: auto;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#img_inst {
+    height: 15%;
+    width: 60%;
+    margin: 20px;
+}
+
+#img_fb {
+    width: 10%;
+}
+
+h3 {
+    margin: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.color2 {
+    color: #3997db;
+    margin: 0 0 0 5px;
+}
+
+/*Змінити колір рамки (border) для <input>*/
+input:focus {
+    border: 2px solid gray;
+    box-shadow: 1px 1px 2px 0 gray;
+}
