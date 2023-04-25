@@ -11,22 +11,23 @@ body {
 }
 
 .main_div {
-    height: 90%;
-    width: 90%;
+    height: 100vh;
+    width: 100vw;
     border: 2px solid darkgray;
     margin-top: 30px;
     padding: 0 30px;
     background-color: darkgray;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
     justify-content: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    align-items: center;
 }
 
 .div_border {
-    height: 90%;
-    width: 60%;
+    height: fit-content;
+    width: 20%;
     border: 2px solid darkblue;
     margin: 3px;
     background-size: cover;
@@ -39,7 +40,7 @@ body {
 /*for all BOXes*/
 ul {
     margin: 2px;
-    padding-left: 5%;
+    padding-left: 2%;
     height: 90%;
 }
 
@@ -48,7 +49,7 @@ li {
 }
 
 li:before {
-    content: "*";
+    /*content: "*";*/
     width: 90%;
     height: 90%;
     background-size: cover;
@@ -80,8 +81,7 @@ li:before {
 
 }
 
-.li_box5 > li::first-letter {
-    /*content: none;*/
+.li_box5 > li > p::first-letter {
     color: red;
     font-size: 30px;
 }
